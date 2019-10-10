@@ -50,20 +50,20 @@ public class JenkinsTest {
 			
 			}
 		 }
-	
-	@Test(priority=2,groups="Logo")
-	public void GoogleLogoTest()
-	{
-		boolean b = driver.findElement(By.xpath("//img[@class='loaded']")).isDisplayed();
-		System.out.println(b);
-		if(b=true)
-		{
-			test.log(LogStatus.PASS, "Image available");
-		}
-		else {
-			test.log(LogStatus.FAIL, "Image not available");
-		}
-	}
+//	
+//	@Test(priority=2,groups="Logo")
+//	public void GoogleLogoTest()
+//	{
+//		boolean b = driver.findElement(By.xpath("//img[@class='loaded']")).isDisplayed();
+//		System.out.println(b);
+//		if(b=true)
+//		{
+//			test.log(LogStatus.PASS, "Image available");
+//		}
+//		else {
+//			test.log(LogStatus.FAIL, "Image not available");
+//		}
+//	}
 @AfterClass
 	public static void endTest()
 
