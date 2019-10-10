@@ -21,9 +21,7 @@ public class JenkinsTest {
 	@BeforeClass
 
 	public static void startTest()
-
 	{
-
 	report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
 
 	test = report.startTest("ExtentDemo");
@@ -70,7 +68,6 @@ public class JenkinsTest {
 		}
 	}
 @AfterClass
-	
 	public static void endTest()
 
 	{
