@@ -25,12 +25,10 @@ public class JenkinsTest {
 	report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
 
 	test = report.startTest("ExtentDemo");
-	
 	}
 	@Test
 	public void Setup()
 	{
-		
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe"); 
 		 driver = new ChromeDriver();
 		 System.out.print("Not Welcome to jenkins ");
@@ -38,7 +36,6 @@ public class JenkinsTest {
 		 System.out.println(driver.getTitle());
 
 		 if(driver.getTitle().equals("Contact Us for AssignmentPrime Related Queries."))
-
 			{
 
 			test.log(LogStatus.PASS, "Test Run Successfully");
