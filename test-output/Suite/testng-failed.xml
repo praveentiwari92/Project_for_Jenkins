@@ -6,16 +6,4 @@
       <class name="jenkinsProject.JenkinsTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="jenkinsProject.JenkinsTest">
-        <methods>
-          <include name="tear_down"/>
-          <include name="GoogleLogoTest"/>
-          <include name="endTest"/>
-          <include name="startTest"/>
-        </methods>
-      </class> <!-- jenkinsProject.JenkinsTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

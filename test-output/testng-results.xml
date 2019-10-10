@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7778" started-at="2019-10-10T07:02:33Z" finished-at="2019-10-10T07:02:40Z">
+  <suite name="Suite" duration-ms="12380" started-at="2019-10-10T07:51:42Z" finished-at="2019-10-10T07:51:54Z">
     <groups>
-      <group name="Logo">
-        <method signature="JenkinsTest.GoogleLogoTest()[pri:2, instance:jenkinsProject.JenkinsTest@49e4cb85]" name="GoogleLogoTest" class="jenkinsProject.JenkinsTest"/>
-      </group> <!-- Logo -->
     </groups>
-    <test name="Test" duration-ms="7778" started-at="2019-10-10T07:02:33Z" finished-at="2019-10-10T07:02:40Z">
+    <test name="Test" duration-ms="12380" started-at="2019-10-10T07:51:42Z" finished-at="2019-10-10T07:51:54Z">
       <class name="jenkinsProject.JenkinsTest">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:jenkinsProject.JenkinsTest@49e4cb85]" name="startTest" is-config="true" duration-ms="255" started-at="2019-10-10T12:32:33Z" finished-at="2019-10-10T12:32:33Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:jenkinsProject.JenkinsTest@19dfb72a]" name="startTest" is-config="true" duration-ms="455" started-at="2019-10-10T13:21:42Z" finished-at="2019-10-10T13:21:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:jenkinsProject.JenkinsTest@49e4cb85]" name="Setup" duration-ms="7172" started-at="2019-10-10T12:32:33Z" finished-at="2019-10-10T12:32:40Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:jenkinsProject.JenkinsTest@19dfb72a]" name="Setup" duration-ms="11217" started-at="2019-10-10T13:21:42Z" finished-at="2019-10-10T13:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="GoogleLogoTest()[pri:2, instance:jenkinsProject.JenkinsTest@49e4cb85]" name="GoogleLogoTest" duration-ms="44" started-at="2019-10-10T12:32:40Z" finished-at="2019-10-10T12:32:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GoogleLogoTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:jenkinsProject.JenkinsTest@49e4cb85]" name="endTest" is-config="true" duration-ms="296" started-at="2019-10-10T12:32:40Z" finished-at="2019-10-10T12:32:40Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:jenkinsProject.JenkinsTest@19dfb72a]" name="endTest" is-config="true" duration-ms="661" started-at="2019-10-10T13:21:53Z" finished-at="2019-10-10T13:21:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
