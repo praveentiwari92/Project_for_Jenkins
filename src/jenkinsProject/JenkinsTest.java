@@ -38,7 +38,7 @@ public class JenkinsTest {
 		 if(driver.getTitle().equals("Contact Us for AssignmentPrime Related Queries."))
 			{
 
-			test.log(LogStatus.PASS, "Test Run Successfully");
+			test.log(LogStatus.PASS, "Test Successfully passed");
 
 			}
 
